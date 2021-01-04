@@ -1,0 +1,258 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat",sans-serif;
+}
+.header{
+  height: 100px;
+  background:  #7A9431;
+  padding: 0 20px;
+  color: #fff;
+}
+.logo{
+  line-height: 100px;
+  float: left;
+  text-transform: uppercase;
+}
+
+
+
+
+
+.menu{
+  float: right;
+  line-height: 100px;
+}
+.menu a{
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0 10px;
+  transition: 0.4s;
+}
+.show-menu-btn,.hide-menu-btn{
+  transition: 0.4s;
+  font-size: 30px;
+  cursor: pointer;
+  display: none;
+}
+.show-menu-btn{
+  float: right;
+}
+.show-menu-btn i{
+  line-height: 100px;
+}
+.menu a:hover,
+.show-menu-btn:hover,
+.hide-menu-btn:hover{
+  color: #3498db;
+}
+
+#chk{
+  position: absolute;
+  visibility: hidden;
+  z-index: -1111;
+}
+
+.content{
+
+}
+.content img{
+  
+
+}
+.content p{
+  text-align: justify;
+}
+
+@media screen and (max-width:800px) {
+  .show-menu-btn,.hide-menu-btn{
+    display: block;
+  }
+  .menu{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #333;
+    right: -100%;
+    top: 0;
+    text-align: center;
+    padding: 80px 0;
+    line-height: normal;
+    transition: 0.7s;
+  }
+  .menu a{
+    display: block;
+    padding: 20px;
+  }
+  .hide-menu-btn{
+    position: absolute;
+    top: 40px;
+    right: 40px;
+  }
+  #chk:checked ~ .menu{
+    right: 0;
+  }
+}
+
+.ul{
+  margin: 10px;
+}
+.footer{
+  height: 80px;
+  background: #7A9431;
+  padding: 0 20px;
+  float: bottom;
+  color: #fff;
+  clear: both; 
+  margin-top: 45%; 
+}
+.a{
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+
+.text1{
+  width: 85%;
+  font-family: Vollkorn;
+  font-size: 24px;
+  margin: 10px;
+}
+
+
+
+  
+.map{
+  width: 100%;
+  z-index: 1;
+}
+
+
+.almaty{
+  position: absolute;
+  z-index: 10;
+  margin-top: -17%;
+  margin-left: 72%; 
+  font-family: Vollkorn;
+  font-size: 20px;
+}
+
+.taldk{
+  position: absolute;
+  z-index: 10;
+  margin-top: -20%;
+  margin-left: 73%; 
+  font-family: Vollkorn;
+  font-size: 20px;
+}
+
+.semey{
+  position: absolute;
+  z-index: 10;
+  margin-top: -40%;
+  margin-left: 80%; 
+  font-family: Vollkorn;
+  font-size: 20px;
+}
+
+.kokshetay{
+  position: absolute;
+  z-index: 10;
+  margin-top: -49%;
+  margin-left: 55%; 
+  font-family: Vollkorn;
+  font-size: 20px;
+}
+
+.nur-sultan{
+  position: absolute;
+  z-index: 10;
+  margin-top: -44%;
+  margin-left: 56%; 
+  font-family: Vollkorn;
+  font-size: 20px;
+}
+
+.karaganda{
+  position: absolute;
+  z-index: 10;
+  margin-top: -37%;
+  margin-left: 60%; 
+  font-family: Vollkorn;
+  font-size: 20px;
+}
+
+.taraz{
+  position: absolute;
+  z-index: 10;
+  margin-top: -15%;
+  margin-left: 60%; 
+  font-family: Vollkorn;
+  font-size: 20px;
+}
+
+.shymkent{
+  position: absolute;
+  z-index: 10;
+  margin-top: -13%;
+  margin-left: 50%; 
+  font-family: Vollkorn;
+  font-size: 20px;
+}
+
+.aktay{
+  position: absolute;
+  z-index: 10;
+  margin-top: -18%;
+  margin-left: 13%; 
+  font-family: Vollkorn;
+  font-size: 20px;
+}
+
+.atyray{
+  position: absolute;
+  z-index: 10;
+  margin-top: -30%;
+  margin-left: 15%; 
+  font-family: Vollkorn;
+  font-size: 20px;
+}
+
+.uralsk{
+  position: absolute;
+  z-index: 10;
+  margin-top: -42%;
+  margin-left: 10%; 
+  font-family: Vollkorn;
+  font-size: 20px;
+}
+
+.aktobe{
+  position: absolute;
+  z-index: 10;
+  margin-top: -37%;
+  margin-left: 25%; 
+  font-family: Vollkorn;
+  font-size: 20px;
+}
+
+.kostanay{
+  position: absolute;
+  z-index: 10;
+  margin-top: -50%;
+  margin-left: 40%; 
+  font-family: Vollkorn;
+  font-size: 20px;
+}
+
+.ustk{
+  position: absolute;
+  z-index: 10;
+  margin-top: -36%;
+  margin-left: 83%; 
+  font-family: Vollkorn;
+  font-size: 20px;
+}
