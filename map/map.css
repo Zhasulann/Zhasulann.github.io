@@ -1,0 +1,45 @@
+.body{
+	font-family: 'Zilla Slab', serif;
+	background-color: gray;
+}
+
+.container{
+	background-color: lightblue;
+	
+}
+
+
+.map{
+	display: none;
+}
+
+.map1{
+	display: none;
+}
+
+.active{
+	display: block;
+	height: 400px;
+	width: 500px;
+	margin: 20px;
+}
+
+.col1{
+	background-color: yellow;
+}
+
+.col2{
+	background-color: violet;
+}
+
+.text{
+	color: white;
+	background-color: red;
+	width: 83.5%;
+}
+
+ @media (max-width: 400px) {
+  .active {	height: 100px;
+			width: 150px;
+			margin: 10px;}
+}
