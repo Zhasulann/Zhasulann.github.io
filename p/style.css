@@ -1,0 +1,21 @@
+.content{
+
+	font-family: 'Vollkorn', serif;
+	background-color: violet;
+	
+}
+.container{
+	height: 200px;
+	background-color: yellow;
+}
+.block{
+	display: none;
+	width: 200px;
+}
+
+
+
+
+.p2{
+	display: none;
+}
